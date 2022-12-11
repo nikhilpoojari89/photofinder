@@ -173,7 +173,7 @@
     <section class="photofinder-box bg-primary">
         <div class="container-lg">
 
-            <div class="row mx-0 justify-content-center pb-5">
+            <div class="row mx-0 justify-content-center">
                 <div class="col-md-10 home-banner-item text-center bg-secondary rounded-10" data-aos="fade-in">
                     <div class="home-banner-item-sub p-5">
                         <h1 class="text-white font-weight-bold line-height-13 mb-3">Try the PhotoFinder product<br class="d-none d-lg-block"/> demo today with just a selfie!</h1>
