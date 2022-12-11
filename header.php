@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,  user-scalable=no" />
-    <meta name="author" content="socioladder.com" />
+    <meta name="author" content="photofinder.com" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title><?php echo $title; ?></title>
