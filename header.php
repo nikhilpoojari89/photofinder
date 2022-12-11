@@ -15,6 +15,9 @@
     <script src="assets/js/font-awesome-5.js"></script>
     <link href="assets/plugins/aos/aos.css" rel="stylesheet" />
     <link href="assets/plugins/datepicker/bootstrap-datepicker.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -62,66 +65,42 @@
     </div>
 </section>
 
-<header class="socio-navbar">
-    <nav class="navbar navbar-expand-md" id="mainNav">
-        <div class="container">
+<header class="photofinder-navbar">
+    <nav class="navbar navbar-expand-lg" id="mainNav">
+        <div class="container-lg">
             <a class="navbar-brand" href="index.php">
-                <img src="./public/images/png/logo.png" alt="SocioLadder Logo" width="200" title="SocioLadder Logo" />
+                <img src="./public/images/png/logo.png" alt="PhotoFinder Logo" width="200" title="PhotoFinder Logo" />
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="ham-icon"><i class="fas fa-bars"></i></span>
+                <span class="ham-icon text-white"><i class="fas fa-bars"></i></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
-                <ul class="navbar-nav ml-auto text-uppercase font-weight-bold roboto-condensed">
-                    <li class="nav-item <?php if($actual_link=="index.php" || $actual_link=="socioladder.php" || $actual_link=="sociopay.php" || $actual_link=="sustaineverse.php" || $actual_link=="nofilter.php" || $actual_link=="sl-foundation.php" || $actual_link=="socio-csr.php" || $actual_link=="socio-fellowship.php"){echo "active";}else{echo "";}?> dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            What We Do
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item <?php if($actual_link=="index.php"){echo "active";}else{echo "";} ?>" href="index.php">Home</a>
-                            <a class="dropdown-item <?php if($actual_link=="socioladder.php"){echo "active";}else{echo "";} ?>" href="socioladder.php">SocioLadder</a>
-                            <a class="dropdown-item <?php if($actual_link=="sociopay.php"){echo "active";}else{echo "";} ?>" href="sociopay.php">SocioPay</a>
-                            <a class="dropdown-item <?php if($actual_link=="sustaineverse.php"){echo "active";}else{echo "";} ?>" href="sustaineverse.php">SustainEverse</a>
-                            <a class="dropdown-item <?php if($actual_link=="nofilter.php"){echo "active";}else{echo "";} ?>" href="nofilter.php">NoFilter</a>
-                            <a class="dropdown-item <?php if($actual_link=="sl-foundation.php"){echo "active";}else{echo "";} ?>" href="sl-foundation.php">SL Foundation</a>
-                            <a class="dropdown-item <?php if($actual_link=="socio-csr.php"){echo "active";}else{echo "";} ?>" href="socio-csr.php">SocioCSR</a>
-                            <a class="dropdown-item <?php if($actual_link=="socio-fellowship.php"){echo "active";}else{echo "";} ?>" href="socio-fellowship.php">Socio Fellowship</a>
-                        </div>
-                    </li>
-                    <!-- <li <?php if($actual_link=="index.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="index.php">What We Do</a>
-                    </li> -->
+                <ul class="navbar-nav font-weight-light">
                     <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="about-us.php">About Us</a>
+                        <a class="nav-link" href="about-us.php">The Problem</a>
                     </li>
-                    <li <?php if($actual_link=="media-and-events.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="media-and-events.php">Media & Events</a>
+                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link ml-lg-4" href="about-us.php">The Solution</a>
                     </li>
-                    <li <?php if($actual_link=="clients-and-case-studies.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="clients-and-case-studies.php">Clients & Case Studies</a>
+                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link ml-lg-4" href="about-us.php">Demo Event</a>
                     </li>
-                    <li <?php if($actual_link=="partner-with-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="partner-with-us.php">Partner With Us</a>
+                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link ml-lg-4" href="about-us.php">Contact Us</a>
                     </li>
-                    <li <?php if($actual_link=="careers.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="careers.php">Careers</a>
-                    </li>
-                    <li <?php if($actual_link=="locations.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="locations.php">Locations</a>
+                    <li class="d-block d-lg-none text-center">
+                        <a href="javascript:void(0);" class="btn btn-secondary rounded-lg mt-4 mt-lg-0 px-3 py-2 font-min">Try Product Demo</a>
                     </li>
                 </ul>
             </div>
+
+            <div class="mt-3 mt-lg-0 d-none d-lg-block">
+                <!-- Demo Button -->
+                <div class="align-self-center">
+                    <a href="javascript:void(0);" class="btn btn-secondary rounded-lg mt-4 mt-lg-0 font-weight-light">Try Product Demo</a>
+                </div>
+            </div>
+
         </div>
     </nav>
 </header>
-
-<?php if($actual_link=="socioladder.php" || $actual_link=="sociopay.php" || $actual_link=="sustaineverse.php" || $actual_link=="nofilter.php" || $actual_link=="sl-foundation.php" || $actual_link=="socio-csr.php" || $actual_link=="socio-fellowship.php"){?>
-    
-<?php } else {?>
-<div id="navigate_down" class="navigate-down position-absolute ml-3">
-    <div class="scroll-down-arrow"></div>
-    <div class="scroll-down-arrow"></div>
-    <div class="scroll-down-arrow"></div>
-    <p class="text font-weight-bold roboto-condensed h5 text-primary text-uppercase mt-n3 ml-1">Scroll</p>
-</div>
-<?php } ?>
