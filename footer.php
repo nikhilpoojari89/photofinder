@@ -11,16 +11,16 @@
                     <!--<div>
                         <ul class="menu-list footer-inside-menu list-unstyled h6 d-sm-flex justify-content-between text-center text-md-left mb-0">
                             <li class="line-height-2">
-                                <a class="text-white font-weight-light" href="about-us.php">The Problem</a>
+                                <a class="text-white font-weight-light" href="index.php">The Problem</a>
                             </li>
                             <li class="line-height-2 ml-sm-5">
-                                <a class="text-white font-weight-light" href="about-us.php">The Solution</a>
+                                <a class="text-white font-weight-light" href="index.php">The Solution</a>
                             </li>
                             <li class="line-height-2 ml-sm-5">
-                                <a class="text-white font-weight-light" href="about-us.php">Demo Event</a>
+                                <a class="text-white font-weight-light" href="index.php">Demo Event</a>
                             </li>
                             <li class="line-height-2 ml-sm-5">
-                                <a class="text-white font-weight-light" href="about-us.php">Contact Us</a>
+                                <a class="text-white font-weight-light" href="index.php">Contact Us</a>
                             </li>
                         </ul>
                     </div>-->

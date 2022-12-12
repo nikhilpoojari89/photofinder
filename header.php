@@ -76,20 +76,20 @@
             </button>
             <div class="navbar-collapse collapse" id="navbarResponsive" style="">
                 <ul class="navbar-nav font-weight-light">
-                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link" href="about-us.php">The Problem</a>
+                    <li <?php if($actual_link=="index.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link" href="index.php">The Problem</a>
                     </li>
-                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link ml-lg-4" href="about-us.php">The Solution</a>
+                    <li <?php if($actual_link=="index.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link ml-lg-4" href="index.php">The Solution</a>
                     </li>
-                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link ml-lg-4" href="about-us.php">Demo Event</a>
+                    <li <?php if($actual_link=="event.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link ml-lg-4" href="event.php">Demo Event</a>
                     </li>
-                    <li <?php if($actual_link=="about-us.php"){echo "class= 'active'";}else{echo "";} ?>>
-                        <a class="nav-link ml-lg-4" href="about-us.php">Contact Us</a>
+                    <li <?php if($actual_link=="index.php"){echo "class= 'active'";}else{echo "";} ?>>
+                        <a class="nav-link ml-lg-4" href="index.php">Contact Us</a>
                     </li>
                     <li class="d-block d-lg-none text-center">
-                        <a href="javascript:void(0);" class="btn btn-secondary rounded-lg mt-4 mt-lg-0 px-3 py-2 font-min">Try Product Demo</a>
+                        <a href="event.php" class="btn btn-secondary rounded-lg mt-4 mt-lg-0 px-3 py-2 font-min">Try Product Demo</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +97,7 @@
             <div class="mt-3 mt-lg-0 d-none d-lg-block">
                 <!-- Demo Button -->
                 <div class="align-self-center">
-                    <a href="javascript:void(0);" class="btn btn-secondary rounded-lg mt-4 mt-lg-0 font-weight-light">Try Product Demo</a>
+                    <a href="event.php" class="btn btn-secondary rounded-lg mt-4 mt-lg-0 font-weight-light">Try Product Demo</a>
                 </div>
             </div>
 

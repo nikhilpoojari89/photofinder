@@ -32,6 +32,9 @@ footer {
 		opacity: 0.7;
 		line-height: 1.5;
 	}
+	&.event-banner {
+		background: linear-gradient(180deg, rgba(43, 89, 255, 0) 26.13%, rgba(43, 89, 255, 0.2) 100%), $primary;
+	}
 }
 
 .banner-section-auto {
@@ -145,6 +148,22 @@ footer {
 	@include media-breakpoint-down(sm) {
 		background: linear-gradient(180deg, $primary 15%, $white 0%);
 	}
+	&.event-sec {
+		background: linear-gradient(180deg,#17214a 38%, $white 0%);
+		@include media-breakpoint-down(sm) {
+			background: linear-gradient(180deg,#17214a 100%, $white 0%);
+		}
+	}
+}
+
+// .fmp-box-text {
+// 	font-size: 2.2rem;
+// }
+
+.speaker-box-overlap {
+	bottom: 28px;
+    left: 40px;
+    width: 192px;
 }
 
 /**************** Site Preloader *****************/
